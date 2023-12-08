@@ -1,0 +1,26 @@
+[
+    {
+        "Nome": "myrouter.bloi.com.br",
+        "IP": "192.168.1.1",
+        "MAC": "10:c2:5a:c1:a2:aa",
+        "Fabricante": "Vantiva USA LLC",
+        "Primeira Descoberta": "2023-09-29 21:56:27",
+        "Tipo": "Roteador"
+    },
+    {
+        "Nome": "Nail.bloi.com.br",
+        "IP": "192.168.1.12",
+        "MAC": "00:d7:6d:57:b4:a8",
+        "Fabricante": "Intel Corporate",
+        "Primeira Descoberta": "2023-09-29 21:56:27",
+        "Tipo": "Host"
+    },
+    {
+        "Nome": "192.168.1.9",
+        "IP": "192.168.1.9",
+        "MAC": "b2:16:d9:c4:ab:3e",
+        "Fabricante": "Desconhecido",
+        "Primeira Descoberta": "2023-09-29 21:56:32",
+        "Tipo": "Host"
+    }
+]

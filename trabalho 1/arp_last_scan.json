@@ -1,0 +1,18 @@
+[
+    {
+        "Nome": "172.21.53.123",
+        "IP": "172.21.53.123",
+        "MAC": "96:8d:9f:67:ce:59",
+        "Fabricante": "Desconhecido",
+        "Primeira Descoberta": "2023-09-29 14:08:54",
+        "Tipo": "Host"
+    },
+    {
+        "Nome": "Nail",
+        "IP": "172.21.64.96",
+        "MAC": "00:d7:6d:57:b4:a8",
+        "Fabricante": "Intel Corporate",
+        "Primeira Descoberta": "2023-09-29 14:08:54",
+        "Tipo": "Host"
+    }
+]

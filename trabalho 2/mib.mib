@@ -1,0 +1,30 @@
+-- Exemplo de MIB Simples
+-- OID Base: 1.3.6.1.4.1.9999
+
+EXEMPLO-MIB DEFINITIONS ::= BEGIN
+
+IMPORTS
+    MODULE-IDENTITY, OBJECT-TYPE, Integer32
+        FROM SNMPv2-SMI
+    DISPLAY-HINT
+        FROM SNMPv2-TC;
+
+-- Identificação da MIB
+exemploModule MODULE-IDENTITY
+    LAST-UPDATED "202311060000Z"
+    ORGANIZATION "Sua Organização"
+    CONTACT-INFO "seu-email@exemplo.com"
+    DESCRIPTION "MIB Simples de Exemplo"
+    REVISION "202311060000Z"
+    DESCRIPTION "Primeira versão da MIB"
+    ::= { 1.3.6.1.4.1.9999 1 }
+
+-- Definindo um objeto gerenciável
+exemploObject OBJECT-TYPE
+    SYNTAX Integer32
+    MAX-ACCESS read-write
+    STATUS current
+    DESCRIPTION "Exemplo de um objeto gerenciável"
+    ::= { exemploModule 1 }
+
+END
